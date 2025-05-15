@@ -1,7 +1,7 @@
 import requests
 
 
-def font(text, style):
+def font(text, style="smallcaps"):
     try:
         response = requests.get("https://raw.githubusercontent.com/Mishel-07/Fonts/main/fonts.json")
         fonts = response.json()
